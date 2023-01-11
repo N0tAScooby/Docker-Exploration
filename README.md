@@ -9,7 +9,7 @@ Das Image wird an Hand des Dockerfiles gebaut. Das Dockerfile stellt somit das R
 ## Wie baue ich ein Image? 
 
 ```sh
-docker build . 
+docker build . -t demo_image
 ```
 
 Der Progress Output des Builds wird ab der Verwendung von "Buildkit" anders dargestellt. 
