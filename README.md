@@ -37,7 +37,7 @@ docker history demo_image
 
 ## Was ist ein Container? 
 
-(Docker Doku)[https://docs.docker.com/storage/storagedriver/#container-size-on-disk]
+[Docker Doku](https://docs.docker.com/storage/storagedriver/#container-size-on-disk)
 
 Wenn ein Image eine Klasse darstellt, dann ist ein Container die Instanz dieser Klasse.
 
@@ -67,7 +67,7 @@ docker start demo_image
 
 ## Was ist ein Volume? 
 
-(Docker Doku)[https://docs.docker.com/storage/volumes/]
+[Docker Doku](https://docs.docker.com/storage/volumes/)
 
 Ein Volume ist ein Teil des Host Filesystems und wird von Docker gemanaged.
 
