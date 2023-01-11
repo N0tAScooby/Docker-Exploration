@@ -2,7 +2,7 @@
 
 Im Container läuft ein einfaches Python Skript, welches einfach eine Zeile in eine Textdatei einfügt.
 
-# Dockerfile vs Image
+## Dockerfile vs Image
 
 Das Image wird an Hand des Dockerfiles gebaut. Das Dockerfile stellt somit das Rezept für ein gebautes Image dar. 
 
