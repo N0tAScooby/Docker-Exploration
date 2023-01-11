@@ -32,7 +32,7 @@ Image ist Klasse -> Container ist Instanz der Klasse
 ### Layer anschauen: 
 
 ```sh
-docker history --no-trunc demo_image
+docker history demo_image
 ```
 
 ## Was ist ein Container? 
