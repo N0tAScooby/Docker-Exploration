@@ -53,16 +53,22 @@ read-write layer zu verlieren. Somit können zwischen starten und stoppen Daten 
 
 ### Was zur Verwirrung führen kann hier, dass ein "docker run" jedes Mal einen neuen Container erstellt. Das ist also kein Stop / Start
 
+### Docker Container erstes mal starten:
+```sh
+docker run demo_image
+
+```
+
 ### Docker Container stoppen: 
 
 ```sh
-docker stop demo_image
+docker stop <containerID>
 ```
 
 ### Docker Container wieder starten
 
 ```sh
-docker start demo_image
+docker start <ContainerID>
 ```
 
 ## Was ist ein Volume? 
@@ -91,9 +97,9 @@ docker volume create new_volume
 
 ### Container mit gemountetem Volume starten
 
-```sh
+´´´sh
 docker run -v new_volume:/demo demo_image
-```
+´´´
 
 Bei öfterem ausführen kann man n Container ausführen, welche das File im Volume anpassen.
 
