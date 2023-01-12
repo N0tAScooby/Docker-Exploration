@@ -91,15 +91,15 @@ kann dieser Container die Daten aus dem Volume sofort wieder verwenden. So könn
 
 ### Volume erstellen 
 
-´´´sh
+```sh
 docker volume create new_volume
-´´´
+```
 
 ### Container mit gemountetem Volume starten
 
-´´´sh
+```sh
 docker run -v new_volume:/demo demo_image
-´´´
+```
 
 Bei öfterem ausführen kann man n Container ausführen, welche das File im Volume anpassen.
 
